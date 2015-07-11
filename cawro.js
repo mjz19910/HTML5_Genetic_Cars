@@ -1,13 +1,13 @@
 // Global Vars
 var ghost;
 
-var timeStep = 1.0 / 60.0;
+var timeStep = 1.0 / 15.0;
 
 var doDraw = true;
 var cw_paused = false;
 
-var box2dfps = 60;
-var screenfps = 60;
+var box2dfps = 15;
+var screenfps = 15;
 
 var debugbox = document.getElementById("debug");
 
@@ -52,7 +52,7 @@ var doSleep = true;
 
 var world;
 
-var zoom = 70;
+var zoom = 35;
 
 var mutable_floor = false;
 
