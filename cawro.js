@@ -1,7 +1,7 @@
 // Global Vars
 var ghost;
 
-var timeStep = 1.0 / 15.0;
+var timeStep = 1.0 / 10.0;
 
 var doDraw = true;
 var cw_paused = false;
