@@ -14,7 +14,7 @@ var debugbox = document.getElementById("debug");
 var canvas = document.getElementById("mainbox");
 var ctx = canvas.getContext("2d");
 
-var cameraspeed = 0.1;
+var cameraspeed = 1;
 var camera_y = 0;
 var camera_x = 0;
 var camera_target = -1; // which car should we follow? -1 = leader
@@ -52,7 +52,7 @@ var doSleep = true;
 
 var world;
 
-var zoom = 35;
+var zoom = 10;
 
 var mutable_floor = false;
 
