@@ -14,7 +14,7 @@ var debugbox = document.getElementById("debug");
 var canvas = document.getElementById("mainbox");
 var ctx = canvas.getContext("2d");
 
-var cameraspeed = 0.05;
+var cameraspeed = 0.1;
 var camera_y = 0;
 var camera_x = 0;
 var camera_target = -1; // which car should we follow? -1 = leader
@@ -94,12 +94,7 @@ leaderPosition.y = 0;
 minimapcamera.width = 12*minimapscale+"px";
 minimapcamera.height = 6*minimapscale+"px";
 
-function debug(str, clear) {
-  if(clear) {
-    debugbox.innerHTML = "";
-  }
-  debugbox.innerHTML += str+"<br />";
-}
+
 
 function showDistance(distance, height) {
   distanceMeter.innerHTML = "distance: "+distance+" meters<br />";
